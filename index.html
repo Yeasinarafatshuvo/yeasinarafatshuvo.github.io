@@ -582,7 +582,6 @@
         fetch('data.json')
             .then(response => response.json())
             .then(data => {
-                console.log(data);
                 // Populate all sections dynamically
                 populateBio(data.BIO);
                 populateExperience(data.EXPERIENCE);
