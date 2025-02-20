@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth light" style="color-scheme: light;">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <!-- <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xhQ-OBkMbThmXIiJTRCrucGKBP6x12YtTqS1Fsm43Ys" />
+
+    <!-- SEO Meta Tags -->
+    <meta name="keywords" content="Yeasin Arafat, Software Engineer">
+    <meta name="description" content="Passionate Software Engineer delivering tailored web applications and innovative solution">
+    <meta name="author" content="Yeasin Arafat">
+    <meta name="robots" content="max-image-preview:large">
+    <meta name="keywords" content="Alamin, Md. Alamin, Mohammad Alamin, Software Enginner, Web Developer, CSE">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:site_name" content="Yeasin Arafat">
+    <meta property="og:url" content="https://alaminwebdev.github.io/">
+    <meta property="og:title" content="Yeasin Arafat – Software Enginner">
+    <meta property="og:description" content="Passionate Software Engineer delivering tailored web applications and innovative solution">
+    <meta property="og:image" content="https://alaminwebdev.github.io/images/alamin.webp">
+    <meta property="og:type" content="website">
+
+    <meta name="theme-color" content="#4D1EEA">
+    <meta name="next-head-count" content="17">
+
+    <!-- Canonical and Shortlink Tags -->
+    <link rel="canonical" href="https://alaminwebdev.github.io/">
+    <link rel="shortlink" href="https://alaminwebdev.github.io/">
+
+    <title>Yeasin Arafat – Software Enginner</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://i.postimg.cc/9fqYVvxh/logo.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <main>
+        <aside class="sidebar " data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="images/yeasin.jpg" alt="avatar" width="80" style="border-radius: inherit;">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Yeasin Arafat">Yeasin Arafat</h1>
+                    <p class="title">Software engineer</p>
+                </div>
+
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="#" class="contact-link" id="contact-email"></a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+12133522795" class="contact-link" id="contact-phone"></a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+                            <time datetime="" id="contact-dob"></time>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+                            <address id="contact-location"></address>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+                    <li class="social-item"><a href="#" class="social-link" target="_blank" id="social-facebook"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li class="social-item"><a href="#" class="social-link" target="_blank" id="social-linkedin"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    <li class="social-item"><a href="#" class="social-link" target="_blank" id="social-github"><ion-icon name="logo-github"></ion-icon></a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+                </ul>
+            </nav>
+
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                    <p id="bio-description"></p>
+                </section>
+
+                <section class="service">
+                    <h3 class="h3 service-title">What I'm doing</h3>
+
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="images/erp.png" alt="icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">ERP Software Development</h4>
+                                <p class="service-item-text">Developing customized ERP systems to streamline processes and provide real-time insights.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="images/web-programming.png" alt="icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web Development</h4>
+                                <p class="service-item-text">Building responsive websites with modern technologies for seamless user experiences.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="images/web-design.png" alt="icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web Design</h4>
+                                <p class="service-item-text">Creating visually appealing, user-focused designs aligned with business goals.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="images/internet.png" alt="icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Tech Growth</h4>
+                                <p class="service-item-text">Constantly learning new tools and technologies to stay ahead in the tech industry.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+
+                <section class="testimonials">
+                    <h3 class="h3 testimonials-title">Testimonials</h3>
+
+                    <ul class="testimonials-list has-scrollbar">
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="https://i.postimg.cc/zGDHfn3G/avatar-1.png" alt="avatar" data-testimonials-avatar width="60">
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel Lewis</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>Richard was hired to create a corporate identity. It's modern, clean and with a beautiful design that got a lot of praises from colleagues and visitors. We were very pleased with the work done. He has a lot of
+                                        experience and is very concerned about the needs of client.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="https://i.postimg.cc/DwY0yHtx/avatar-2.png" alt="avatar" data-testimonials-avatar width="60">
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica Miller</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>Working with Richard has been an absolute pleasure. I was impressed with his attention to detail, his web design skills and his professional approach to our timelines and processes.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="https://i.postimg.cc/fRFWhX9F/avatar-3.png" alt="avatar" data-testimonials-avatar width="60">
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily Evans</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>I couldn't be happier with the website that Richard created for us. His attention to detail and creativity is unmatched. Our clients frequently compliment the design, and it has significantly improved our brand
+                                        image.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="https://i.postimg.cc/zXv1Xv81/avatar-4.png" alt="avatar" data-testimonials-avatar width="60">
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry Williams</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>I was overwhelmed with the thought of redesigning my online store, but Richard made the process seamless. The site is not only visually appealing but also optimized for conversions. I've seen a 50% increase in
+                                        traffic since the launch!</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <div class="modal-container " data-modal-container>
+                    <div class="overlay " data-overlay></div>
+
+                    <section class="testimonials-modal">
+                        <button class="modal-close-btn" data-modal-close-btn><ion-icon name="close-outline"></ion-icon></button>
+
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar-box">
+                                <img src="https://i.postimg.cc/zGDHfn3G/avatar-1.png" alt="Daniel Lewis" width="80" data-modal-img>
+                            </figure>
+
+                            <img src="https://i.postimg.cc/mZ00RwX7/icon-quote.png" alt="quote icon">
+                        </div>
+
+                        <div class="modal-content">
+                            <h4 class="h3 modal-title" data-modal-title>Daniel Lewis</h4>
+                            <time datetime="2023-06-14">14 June, 2023</time>
+
+                            <div class="modal-text" data-modal-text>
+                                <p>Richard was hired to create a corporate identity. It's modern, clean and with a beautiful design that got a lot of praises from colleagues and visitors. We were very pleased with the work done. He has a lot of
+                                    experience and is very concerned about the needs of client.</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+            </article>
+
+            <article class="resume " data-page="resume">
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+                        <h3 class="h3">Experience</h3>
+                    </div>
+
+                    <ol class="timeline-list" id="experience-info">
+                        <!-- <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Creative director</h4>
+                            <span>2015 - Present</span>
+                            <p class="timeline-text">I can develop and oversee creative concepts for projects and campaigns managing a team of designers, writers, and other creative professionals.</p>
+                        </li> -->
+                    </ol>
+                </section>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+
+                        <h3 class="h3">Education & Training</h3>
+                    </div>
+
+                    <ol class="timeline-list" id="education-info">
+                    </ol>
+                </section>
+
+                <section class="skill">
+                    <h3 class="h3 skills-title">My Skills</h3>
+
+                    <div class="scroller" data-speed="fast">
+                        <div class="scroller-inner">
+                            <div class="skill-section">
+                                <img src="images/skills/HTML.svg" class="">
+                            </div>
+                            <div class="skill-section">
+                                <img src="images/skills/CSS.svg" class="">
+                            </div>
+                            <div class="skill-section">
+                                <img src="images/skills/JavaScript.svg" class="">
+                            </div>
+                            <div class="skill-section">
+                                <img src="images/skills/JQuery.svg" class="">
+                            </div>
+                            <div class="skill-section">
+                                <img src="images/skills/json.svg" class="">
+                            </div>
+                            <div class="skill-section">
+                                <img src="images/skills/PHP-Dark.svg" class="">
+                            </div>
+                            <div class="skill-section">
+                                <img src="images/skills/Laravel-Dark.svg" class="">
+                            </div>
+                            <div class="skill-section">
+                                <img src="images/skills/MySQL-Dark.svg" class="">
+                            </div>
+                            <div class="skill-section">
+                                <img src="images/skills/Github-Dark.svg" class="">
+                            </div>
+                            <div class="skill-section">
+                                <img src="images/skills/GitLab-Dark.svg" class="">
+                            </div>
+                            <div class="skill-section">
+                                <img src="images/skills/VSCode-Dark.svg" class="">
+                            </div>
+                            <div class="skill-section">
+                                <img src="images/skills/BitBucket-Light.svg" class="">
+                            </div>
+                            <div class="skill-section">
+                                <img src="images/skills/Vite-Dark.svg" class="">
+                            </div>
+                            <div class="skill-section">
+                                <img src="images/skills//Postman.svg" class="">
+                            </div>
+                            <div class="skill-section">
+                                <img src="images/skills/Git.svg" class="">
+                            </div>
+                            <div class="skill-section">
+                                <img src="images/skills/TailwindCSS-Dark.svg" class="">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </article>
+
+            <article class="portfolio " data-page="portfolio">
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+
+                <section class="projects">
+                    <ul class="filter-list">
+                        <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+                        <li class="filter-item"><button data-filter-btn>Web Design</button></li>
+                        <li class="filter-item"><button data-filter-btn>Applications</button></li>
+                        <li class="filter-item"><button data-filter-btn>Web Development</button></li>
+                    </ul>
+
+                    <div class="filter-select-box">
+                        <button class="filter-select " data-select>
+                            <div class="select-value" data-select-value>Select Category</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+
+                        <ul class="select-list">
+                            <li class="select-item"><button data-select-item>All</button></li>
+                            <li class="select-item"><button data-select-item>Web Design</button></li>
+                            <li class="select-item"><button data-select-item>Applications</button></li>
+                            <li class="select-item"><button data-select-item>Web Development</button></li>
+                        </ul>
+                    </div>
+
+                    <ul class="project-list">
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/qRHpHMyd/project-1.jpg" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Finance</h3>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/bNrcM2Wt/project-2.png" alt="orizon" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Orizon</h3>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web design">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/jSJVqYsq/project-3.jpg" alt="fundo" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Fundo</h3>
+                                <p class="project-category">Web Design</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="applications">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/dtpXxNGb/project-4.png" alt="brawlhalla" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Brawlhalla</h3>
+                                <p class="project-category">Applications</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web design">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/43T0JKLw/project-5.png" alt="dsm." loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">DSM.</h3>
+                                <p class="project-category">Web Design</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web design">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/qR1DX1kZ/project-6.png" alt="metaspark" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Metaspark</h3>
+                                <p class="project-category">Web Design</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/Kj4q9tjc/project-7.png" alt="summary" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Summary</h3>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="applications">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/rw2j4B1w/project-8.jpg" alt="task manager" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Task Manager</h3>
+                                <p class="project-category">Applications</p>
+                            </a>
+                        </li>
+
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="https://i.postimg.cc/7LxNsSQv/project-9.png" alt="arrival" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Arrival</h3>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="contact " data-page="contact">
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+
+                <section class="mapbox" data-mapbox>
+                    <figure>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7519.634959221802!2d90.35255501708234!3d23.771933397685647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c0a880f7909d%3A0xe8d7d2484b62becc!2sShyamoli%2C%20Dhaka!5e1!3m2!1sen!2sbd!4v1740023369393!5m2!1sen!2sbd"
+                            width="400" height="300" loading="lazy"></iframe>
+                    </figure>
+                </section>
+
+                <section class="contact-form">
+                    <h3 class="h3 form-title">Contact Form</h3>
+
+                    <form action="#" class="form" data-form>
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                            <input type="email" name="email" class="form-input" placeholder="Email Address" required data-form-input>
+                        </div>
+
+                        <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input=""></textarea>
+
+                        <button class="form-btn" type="submit" disabled data-form-btn>
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </section>
+            </article>
+        </div>
+    </main>
+    <script src="main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        // Fetch the JSON data
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+                // Populate all sections dynamically
+                populateBio(data.BIO);
+                populateExperience(data.EXPERIENCE);
+                populateEducation(data.EDUCATION);
+                populateContact(data.CONTACT);
+                populateSocial(data.SOCIAL);
+            });
+
+        // Function to populate BIO section
+        function populateBio(bioData) {
+            if (!bioData) return;
+            const bio = document.getElementById('bio-description');
+            bio.innerHTML = bioData.description;
+        }
+
+        // Function to populate Education section
+        function populateEducation(educationData) {
+            if (!educationData) return;
+            const educationInfo = document.getElementById('education-info');
+            educationInfo.innerHTML = '';
+
+            educationData.forEach(item => {
+                const timelineItem = document.createElement('li');
+                timelineItem.classList.add('timeline-item');
+
+                const title = document.createElement('h4');
+                title.classList.add('h4', 'timeline-item-title');
+                title.textContent = item.degree;
+
+                const date = document.createElement('span');
+                date.textContent = `${item.institute} [${item.passing_year}]`;
+
+                const text = document.createElement('p');
+                text.classList.add('timeline-text');
+                text.textContent = item.description;
+
+                // Append to timeline item
+                timelineItem.appendChild(title);
+                timelineItem.appendChild(date);
+                timelineItem.appendChild(text);
+
+                // Append the item to the timeline list
+                educationInfo.appendChild(timelineItem);
+            });
+        }
+
+        // Function to populate Experience section
+        function populateExperience(experienceData) {
+            if (!experienceData) return;
+            const experienceInfo = document.getElementById('experience-info');
+            experienceInfo.innerHTML = '';
+
+            experienceData.forEach(item => {
+                const timelineItem = document.createElement('li');
+                timelineItem.classList.add('timeline-item');
+
+                const title = document.createElement('h4');
+                title.classList.add('h4', 'timeline-item-title');
+                title.textContent = item.designation;
+
+                const date = document.createElement('span');
+                date.textContent = `${item.company} [${formatDate(item.start_date)} - ${item.end_date ? formatDate(item.end_date) : 'Present'}]`;
+
+                const text = document.createElement('p');
+                text.classList.add('timeline-text');
+                text.textContent = item.responsibilities.join(' '); // Joining responsibilities into a single paragraph
+
+                // Append to timeline item
+                timelineItem.appendChild(title);
+                timelineItem.appendChild(date);
+                timelineItem.appendChild(text);
+
+                // Append the item to the timeline list
+                experienceInfo.appendChild(timelineItem);
+            });
+        }
+
+        // Function to populate Contact section
+        function populateContact(contactData) {
+            if (!contactData) return;
+
+            const contactElements = {
+                email: document.getElementById('contact-email'),
+                phone: document.getElementById('contact-phone'),
+                dob: document.getElementById('contact-dob'),
+                location: document.getElementById('contact-location')
+            };
+
+            const { email, phone, dob, location } = contactData;
+
+            contactElements.email.textContent = email.split('@')[0];
+            contactElements.email.href = `mailto:${email}`;
+
+            contactElements.phone.textContent = phone;
+            contactElements.phone.href = `tel:${phone}`;
+
+            contactElements.location.textContent = location;
+
+            // Format DOB
+            const [year, month, day] = dob.split('/');
+            const formattedDob = new Date(year, month - 1, day)
+                .toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+
+            contactElements.dob.textContent = formattedDob;
+            contactElements.dob.setAttribute('datetime', `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`);
+        }
+
+        // Function to populate Social Media Links
+        function populateSocial(socialData) {
+            if (!socialData) return;
+
+            const socialElements = {
+                facebook: document.getElementById('social-facebook'),
+                linkedin: document.getElementById('social-linkedin'),
+                github: document.getElementById('social-github')
+            };
+
+            Object.entries(socialData).forEach(([key, url]) => {
+                if (socialElements[key]) socialElements[key].href = url;
+            });
+        }
+
+        function formatDate(dateString) {
+            const date = new Date(dateString);
+            const options = { year: 'numeric', month: 'long' };
+            return date.toLocaleDateString('en-US', options);
+        }
+        const scrollers = document.querySelectorAll(".scroller");
+
+        // If a user hasn't opted in for recuded motion, then we add the animation
+        if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+            addAnimation();
+        }
+
+        function addAnimation() {
+            scrollers.forEach((scroller) => {
+                // add data-animated="true" to every `.scroller` on the page
+                scroller.setAttribute("data-animated", true);
+
+                // Make an array from the elements within `.scroller-inner`
+                const scrollerInner = scroller.querySelector(".scroller-inner");
+                const scrollerContent = Array.from(scrollerInner.children);
+
+                // For each item in the array, clone it
+                // add aria-hidden to it
+                // add it into the `.scroller-inner`
+                scrollerContent.forEach((item) => {
+                    const duplicatedItem = item.cloneNode(true);
+                    duplicatedItem.setAttribute("aria-hidden", true);
+                    scrollerInner.appendChild(duplicatedItem);
+                });
+            });
+        }
+    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script>
+        // Initialize EmailJS with your Public Key
+        // emailjs.init('0X5Smni1W1DqTf52F');
+        // // Enabling Contact Form
+        // const form = document.querySelector('[data-form]');
+        // const formBtn = document.querySelector('[data-form-btn]');
+        // const originalBtnText = formBtn.innerHTML;
+        // form.addEventListener('input', () => {
+        //     if (form.checkValidity()) {
+        //         formBtn.removeAttribute('disabled');
+        //     } else {
+        //         formBtn.setAttribute('disabled', '');
+        //     }
+        // });
+
+        // Add event listener for form submission
+        // form.addEventListener('submit', function (event) {
+        //     event.preventDefault();
+        //     formBtn.setAttribute('disabled', true);
+        //     formBtn.innerHTML = 'Submitting...';
+        //     // Send form data using EmailJS
+        //     emailjs.sendForm('service_41uforg', 'template_1twutcr', this)
+        //         .then(function (response) {
+        //             alert('SUCCESS! Your message has been sent.', response.status, response.text);
+        //             form.reset(); 
+        //             formBtn.removeAttribute('disabled');
+        //             formBtn.innerHTML = originalBtnText;
+        //         }, function (error) {
+        //             alert('FAILED... Please try again.', error);
+        //             formBtn.removeAttribute('disabled');
+        //             formBtn.innerHTML = originalBtnText;
+        //         });
+        // });
+
+    </script>
+
+</body>
+
+</html>

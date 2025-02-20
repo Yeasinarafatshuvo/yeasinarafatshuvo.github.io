@@ -1,0 +1,82 @@
+{
+    "EDUCATION": [
+        {
+            "degree": "Bachelor of Science in Computer Science and Engineering",
+            "passing_year": 2021,
+            "session": "",
+            "institute": "IUBAT - International University of Business Agriculture and Technology",
+            "type": "Education",
+            "description": ""
+        },
+        {
+            "degree": "Higher Secondary Certificate (HSC)",
+            "passing_year": 2014,
+            "session": "2012-2013",
+            "institute": "Noakhali Government College",
+            "type": "Education",
+            "description": ""
+        },
+        {
+            "degree": "HigSecondary School  Certificate (SSC)",
+            "passing_year": 2012,
+            "session": "2011-2012",
+            "institute": "Jamider Hat B N High School, Noakhali, Begumganj",
+            "type": "Education",
+            "description": ""
+        }
+    ],
+    "EXPERIENCE": [
+        {
+            "designation": "Software Engineer",
+            "start_date": "2024-07-01",
+            "end_date": null,
+            "company": "Ambala IT",
+            "responsibilities": [
+                "At Amabla IT, I develop and optimize microfinance software using Php, Laravel, SQL, focusing on query optimization, financial reporting, and loan processing.",
+                "I have contributed to building financial reporting modules, such as Portfolio at Risk (PAR) report, branch-wise data aggregation,Collection sheet report, periodical progress report, and loan due calculations. Additionally, I have worked on REST API integration, ensuring smooth communication between microfinance systems and external platforms.",
+                "My role also involves optimizing large-scale database queries, significantly improving system performance and reducing execution time for financial reports. ",
+                "My experience includes refactoring PHP codebases, making them more efficient and maintainable for an improved user experience."
+            ]
+        },
+        {
+            "designation": "Full-Stack Web Developer",
+            "start_date": "2023-10-01",
+            "end_date": "2024-06-30",
+            "company": "Global Medical Engineering (Bd) Ltd",
+            "responsibilities": [
+                "At Global Medical Engineering (Bd) Ltd., I designed and developed a Digital Management System (DMS) from scratch, handling both database planning and software implementation.",
+                "I was responsible for architecting the database, ensuring scalability and efficiency, and developing the system with a focus on automation, data management, and workflow optimization.",
+                " My work involved full-cycle development, from requirement analysis and system design to coding, testing, ensuring a seamless and efficient digital management solution."
+            ]
+        },
+        {
+            "designation": "Full-Stack Web Developer",
+            "start_date": "2022-02-10",
+            "end_date": "2023-09-30",
+            "company": "Maakview Limited",
+            "responsibilities": [
+                "Mostly, I am responsible for developed new feature and integrated existing ecommerce platform",
+                "I used mainly PHP, laravel 8 for backend development, javascript, jquery for front end development also for database we use sql, MYSQL.",
+                "Managed database design and performance using MySQL, optimizing queries and ensuring data integrity."
+            ]
+        }
+        
+        
+    ],
+    "SOCIAL": {
+        "facebook": "https://www.facebook.com/yeasin.arafat.562114",
+        "linkedin": "https://www.linkedin.com/in/yeasin-arafat-93b34919a",
+        "github": "https://github.com/yeasinarafatshuvo"
+    },
+    "CONTACT": {
+        "email": "yeasinshuvo76@gmail.com",
+        "phone": "+8801779930077",
+        "location": "Dhaka, Bangladesh",
+        "dob": "1996/01/11"
+    },
+    "BIO": {
+        "short_bio": "Dedicated software engineer based in Dhaka, creating dynamic and user-friendly applications that drive innovation.",
+        "long_bio": "I'm Md. Al Amin, a software engineer at Ambala IT. I specialize in Laravel, JavaScript, and MySQL, delivering efficient and user-focused web applications.",
+        "description": "👋 Hi, I'm Yeasin Arafat, a Software Engineer at Amabla IT, specializing in scalable web applications, database optimization, and financial software development.<br><br>💻 <strong>Back-end Expertise:</strong> Specializing in PHP and Laravel to develop robust and scalable applications.<br>🎨 <strong>Front-end Skills:</strong> Proficient in JavaScript and Jquery, creating interactive and dynamic user interfaces.<br>🚀 <strong>Modern Tools:🗃️ <strong>Database Management:</strong> Skilled in MySQL, ensuring data integrity and optimal performance.<br>⚡ <strong>Dynamic Web Development:</strong> Mastering AJAX for responsive and real-time user experiences.<br><br>Passionate about innovation, problem-solving, and continuous learning in the world of web development."
+    }
+}
